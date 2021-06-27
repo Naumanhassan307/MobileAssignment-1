@@ -1,6 +1,6 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, Image, TextInput, Button } from 'react-native';
+import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native';
 import styles from './IntroStyle';
 
 // import logo from "../../assets/logo.png"
@@ -32,7 +32,11 @@ function Intro ()  {
         </View>
       </View>
       <View style={styles.three}>
-        <Button title="Login" style={styles.logbtn}/>
+        <View style={{width: '100%'}}>
+          <TouchableOpacity style={styles.logbtn}>
+            <Text style={styles.btnText}>Login</Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </View>
   );
