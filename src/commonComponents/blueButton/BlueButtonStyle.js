@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 // define your styles
 const BlueBtnStyles = StyleSheet.create({
   btn: {
-    width: '90%',
+    width: '95%',
     height: 60,
     backgroundColor: '#227BFF',
     borderWidth: 1,
@@ -11,6 +11,8 @@ const BlueBtnStyles = StyleSheet.create({
     marginRight: 10,
     marginTop: 5,
     marginBottom: 5,
+    alignItems: "center",
+    // justifyContent: "center"
   },
   btntxt: {
     color: '#FFFFFF',

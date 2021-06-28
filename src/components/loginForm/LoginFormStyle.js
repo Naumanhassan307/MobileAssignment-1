@@ -22,9 +22,39 @@ const LoginFormStyles = StyleSheet.create({
     borderTopRightRadius: 50,
   },
   head: {
+    flex: 1,
     justifyContent: 'flex-start',
-    textAlign: "center",
-    
+    textAlign: 'center',
+    fontFamily: 'Overpass',
+    fontStyle: 'normal',
+    fontWeight: 'bold',
+    fontSize: 24,
+    paddingTop: 10,
   },
+  inp1: {
+    flex: 5,
+    // backgroundColor: 'red',
+  },
+  frm: {
+    color: '#000000',
+    borderWidth: 1,
+    borderColor: '#000000',
+    borderRadius: 7,
+    backgroundColor: 'transparent',
+    width: '90%',
+    height: 60,
+    fontSize: 18,
+    padding: 20,
+    margin: 20,
+  },
+  txt: {
+    fontSize: 18,
+    marginLeft: 20,
+    marginTop: 5,
+  },
+ bt:{
+     flex:1,
+     marginTop: 100,
+ }
 });
 export default LoginFormStyles;
