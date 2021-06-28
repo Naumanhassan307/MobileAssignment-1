@@ -1,12 +1,10 @@
 //import liraries
-import React, { Component } from 'react';
-import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native';
-import styles from './IntroStyle';
-
-// import logo from "../../assets/logo.png"
+import React, {Component} from 'react';
+import {View, Text, Image, TextInput, TouchableOpacity} from 'react-native';
+import styles from './LoginStyle';
 
 // create a component
-function Intro ()  {
+function Intro() {
   return (
     <View style={styles.container}>
       <View style={styles.one}>
@@ -40,10 +38,9 @@ function Intro ()  {
       </View>
     </View>
   );
-};
+}
 
 // define your styles
-
 
 //make this component available to the app
 export default Intro;

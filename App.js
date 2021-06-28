@@ -1,15 +1,15 @@
 //import liraries
 import React, { Component } from 'react';
-
-import Intro from './src/components/intro/Intro';
+import {Text} from "react-native"
+// import Intro from './src/components/login/Login';
 
 
 // create a component
 function App() {
   return (
     <>
-      <Intro />
-    
+      {/* <Intro /> */}
+    <Text>Hello</Text>
       </>
    
   );
