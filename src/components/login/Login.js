@@ -4,7 +4,7 @@ import {View, Text, Image, TextInput, TouchableOpacity} from 'react-native';
 import styles from './LoginStyle';
 
 // create a component
-function Intro() {
+function Login() {
   return (
     <View style={styles.container}>
       <View style={styles.one}>
@@ -43,4 +43,4 @@ function Intro() {
 // define your styles
 
 //make this component available to the app
-export default Intro;
+export default Login;
