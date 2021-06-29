@@ -1,10 +1,11 @@
 //import liraries
 import React, {Component} from 'react';
 import {Text} from 'react-native';
-// import Login from './src/components/login/Login';
-// import Intro from "./src/components/intro/Intro"
-// import LoginForm from './src/components/loginForm/LoginForm';
+import Login from './src/components/login/Login';
+import Intro from "./src/components/intro/Intro"
+import LoginForm from './src/components/loginForm/LoginForm';
 import SignUp from "./src/components/signUp/SignUp"
+import SignUp2 from './src/components/SignUp2/SignUp2';
 
 // create a component
 function App() {
@@ -13,7 +14,8 @@ function App() {
       {/* <Login /> */}
       {/* <Intro /> */}
       {/* <LoginForm /> */}
-      <SignUp />
+      {/* <SignUp /> */}
+      {/* <SignUp2 /> */}
     </>
   );
 }
